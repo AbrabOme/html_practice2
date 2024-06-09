@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
+header{
+    width: 100%;
+    padding: 10px 0px;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.menu-box{
+    display: flex;
+    align-items: center;
+}
+
+.logo, .btns{
+    flex-basis: 20%;
+
+}
+
+.logo a img{
+    width: 175px;
+}
+
+.menu{
+    flex-basis: 60%;
+    
+}
+
+.menu ul{
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 16px;
+    color: #0e72cc;
+}
+
+.btns button {
+    color: white;
+    padding: 10px 28px;
+    background: #0e72cc;
+    font-size: 16px;
+    border: 1px solid #0e72cc;
+    transition: opacity 0.6s;
+}
+
+.btns :hover{
+    opacity: 0.6;
+}
+
+section{
+    margin-top: 50px;
+    display: flex;
+    width: 95%;
+    
+}
+
+.menu_ma {
+    align-items: left;
+    flex-basis: 50%;
+    padding: 109px 0px;
+}
+
+.box{
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+}
+.head h2 {
+    font-size: 45px;
+    color: #0e72cc;
+    line-height: 50px;
+    font-weight: 700;
+}
+
+.text p {
+    margin-top: 10px;
+    color: #0e72cc;
+    font-size: 22px;
+    line-height: 28px;
+}
+
+.btn button {
+    margin-top: 20px;
+    padding: 17px 30px;
+    color: white;
+    background: #0e72cc;
+    border: 1px solid #0e72cc;
+    font-size: 16px;
+    border-radius: 8px;
+    transition: opacity 0.6s;
+}
+
+.btn :hover{
+    opacity: 0.6;
+}
+.imgs{
+    width: 50%;
+}
